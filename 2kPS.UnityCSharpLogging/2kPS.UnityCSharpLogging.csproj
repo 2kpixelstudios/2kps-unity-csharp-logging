@@ -29,10 +29,14 @@
     <DefineConstants>CSHARP_LOGGING</DefineConstants>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Reference Include="UnityEngine">
-      <HintPath>..\Libraries\UnityEngine.dll</HintPath>
-    </Reference>
-  </ItemGroup>
+  <Choose>
+    <When Condition="$(DefineConstants.Contains('UNITY_LOGGING'))">
+      <ItemGroup>
+        <Reference Include="UnityEngine">
+          <HintPath>..\Libraries\UnityEngine.dll</HintPath>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
 
 </Project>
