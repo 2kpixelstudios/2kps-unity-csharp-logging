@@ -2,7 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <RootNamespace>_2kPS.UnityCSharpLogging</RootNamespace>
+    <RootNamespace>PS2k.UnityCSharpLogging</RootNamespace>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Carlos DaLomba</Authors>
+    <Company>2kPixel Studios LLC</Company>
+    <Description></Description>
+    <RepositoryUrl>https://github.com/2kpixelstudios/2kps-unity-csharp-logging</RepositoryUrl>
+    <Version>0.1.0</Version>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
 </Project>
