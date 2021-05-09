@@ -1,2 +1,3 @@
-# 2kps-unity-nlog
-Contains an integration to more easily use NLog logging within the Unity game engine.
+# 2kPS Unity NLog Integration
+
+This project contains an integration to more easily use NLog logging within the Unity game engine.
