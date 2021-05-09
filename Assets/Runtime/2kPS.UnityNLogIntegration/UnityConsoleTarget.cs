@@ -9,9 +9,9 @@ namespace PS2k.UnityNLogIntegration {
     //See NLog dcumentation on registering custom Target here:
     //https://github.com/NLog/NLog/wiki/Register-your-custom-component
     [Target(nameof(UnityConsoleTarget), IsWrapper = true)]
-    public class UnityConsoleTarget : TargetWithLayout {
+    public class UnityConsoleTarget : Target {
         protected override void Write(LogEventInfo logEvent) {
-            string message = Layout.Render(logEvent);
+            string message = logEvent.FormattedMessage;
             Debug.Log(message);
         }
     }
