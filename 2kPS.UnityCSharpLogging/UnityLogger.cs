@@ -1,4 +1,5 @@
-﻿using System;
+﻿#if UNITY_LOGGING
+using System;
 using UnityEngine;
 
 namespace PS2k.UnityCSharpLogging {
@@ -23,3 +24,4 @@ namespace PS2k.UnityCSharpLogging {
         }
     }
 }
+#endif

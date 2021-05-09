@@ -13,7 +13,9 @@ namespace PS2k.UnityCSharpLogging {
 #if UNITY_LOGGING
             loggers.Add(new UnityLogger());
 #endif
+#if CSHARP_LOGGING
             loggers.Add(new CSharpLogger());
+#endif
             return loggers;
         }
 

@@ -12,6 +12,7 @@
     <Version>0.1.0</Version>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <IsPackable>false</IsPackable>
+    <Configurations>Debug;Release;Debug-UnityLogging;Release-UnityLogging;Debug-CSharpLogging;Release-CSharpLogging</Configurations>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿#if CSHARP_LOGGING
+using System;
 
 namespace PS2k.UnityCSharpLogging {
     /// <summary>
@@ -65,3 +66,4 @@ namespace PS2k.UnityCSharpLogging {
         }
     }
 }
+#endif

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -10,6 +10,23 @@
     <RepositoryUrl>https://github.com/2kpixelstudios/2kps-unity-csharp-logging</RepositoryUrl>
     <Version>0.1.0</Version>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Configurations>Debug;Release;Debug-UnityLogging;Release-UnityLogging;Debug-CSharpLogging;Release-CSharpLogging</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-UnityLogging|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE;UNITY_LOGGING</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-UnityLogging|AnyCPU'">
+    <DefineConstants>UNITY_LOGGING</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-CSharpLogging|AnyCPU'">
+    <DefineConstants>TRACE;DEBUG;CSHARP_LOGGING</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-CSharpLogging|AnyCPU'">
+    <DefineConstants>CSHARP_LOGGING</DefineConstants>
   </PropertyGroup>
 
   <ItemGroup>
