@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>PS2k.UnityCSharpLogging.ExampleConsoleApp</RootNamespace>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Carlos DaLomba</Authors>
+    <Company>2kPixel Studios LLC</Company>
+    <Description></Description>
+    <RepositoryUrl>https://github.com/2kpixelstudios/2kps-unity-csharp-logging</RepositoryUrl>
+    <Version>0.1.0</Version>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IsPackable>false</IsPackable>
+    <Configurations>Debug;Release;Debug-UnityLogging;Release-UnityLogging;Debug-CSharpLogging;Release-CSharpLogging</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\2kPS.UnityCSharpLogging\2kPS.UnityCSharpLogging.csproj" />
+  </ItemGroup>
+
+</Project>
