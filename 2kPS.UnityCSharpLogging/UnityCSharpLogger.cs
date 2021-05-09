@@ -10,7 +10,9 @@ namespace PS2k.UnityCSharpLogging {
 
         private static IUnityCSharpLogger CreateLogger() {
             CompoundLogger loggers = new CompoundLogger();
+#if UNITY_LOGGING
             loggers.Add(new UnityLogger());
+#endif
             loggers.Add(new CSharpLogger());
             return loggers;
         }

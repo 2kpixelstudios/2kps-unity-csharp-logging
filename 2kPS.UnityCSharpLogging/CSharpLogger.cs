@@ -10,9 +10,13 @@ namespace PS2k.UnityCSharpLogging {
                 strMessage = (message == null ? "" : message.ToString());
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.ForegroundColor = ConsoleColor.White;
-            Console.Write("Info");
+
+            string prefix = string.Format("{0, -12}", "Info:");
+            int spacesStart = "Info:".Length;
+            Console.Write(prefix.Substring(0, spacesStart));
             Console.ResetColor();
-            Console.Write(": ");
+            Console.Write(prefix.Substring(spacesStart, prefix.Length - spacesStart));
+
             Console.WriteLine(strMessage);
         }
 
@@ -21,9 +25,13 @@ namespace PS2k.UnityCSharpLogging {
                 strMessage = (message == null ? "" : message.ToString());
             Console.BackgroundColor = ConsoleColor.Yellow;
             Console.ForegroundColor = ConsoleColor.Black;
-            Console.Write("Warning");
+
+            string prefix = string.Format("{0, -12}", "Warning:");
+            int spacesStart = "Warning:".Length;
+            Console.Write(prefix.Substring(0, spacesStart));
             Console.ResetColor();
-            Console.Write(": ");
+            Console.Write(prefix.Substring(spacesStart, prefix.Length - spacesStart));
+
             Console.WriteLine(strMessage);
         }
 
@@ -32,9 +40,13 @@ namespace PS2k.UnityCSharpLogging {
                 strMessage = (message == null ? "" : message.ToString());
             Console.BackgroundColor = ConsoleColor.Red;
             Console.ForegroundColor = ConsoleColor.White;
-            Console.Error.Write("Error");
+
+            string prefix = string.Format("{0, -12}", "Error:");
+            int spacesStart = "Error:".Length;
+            Console.Error.Write(prefix.Substring(0, spacesStart));
             Console.ResetColor();
-            Console.Error.Write(": ");
+            Console.Error.Write(prefix.Substring(spacesStart, prefix.Length - spacesStart));
+
             Console.Error.WriteLine(strMessage);
         }
 
@@ -42,9 +54,13 @@ namespace PS2k.UnityCSharpLogging {
             string strMessage = (exception == null ? "" : exception.ToString());
             Console.BackgroundColor = ConsoleColor.Red;
             Console.ForegroundColor = ConsoleColor.White;
-            Console.Error.Write("Exception");
+
+            string prefix = string.Format("{0, -12}", "Exception:");
+            int spacesStart = "Exception:".Length;
+            Console.Error.Write(prefix.Substring(0, spacesStart));
             Console.ResetColor();
-            Console.Error.Write(": ");
+            Console.Error.Write(prefix.Substring(spacesStart, prefix.Length - spacesStart));
+
             Console.Error.WriteLine(strMessage);
         }
     }
