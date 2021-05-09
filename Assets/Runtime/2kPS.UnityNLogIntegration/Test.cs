@@ -1,4 +1,5 @@
-﻿using NLog;
+﻿using System;
+using NLog;
 using NLog.Config;
 using NLog.Targets;
 using UnityEngine;
@@ -19,6 +20,7 @@ namespace PS2k.UnityNLogIntegration {
             logger.Log(LogLevel.Info, "Omg!?");
             logger.Log(LogLevel.Warn, "Omg!?");
             logger.Log(LogLevel.Error, "Omg!?");
+            logger.Log(LogLevel.Info, new Exception("LOL"), "HI!");
         }
     }
 }
