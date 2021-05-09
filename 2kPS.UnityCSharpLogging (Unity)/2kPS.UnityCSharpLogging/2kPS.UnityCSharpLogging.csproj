@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>_2kPS.UnityCSharpLogging</RootNamespace>
+  </PropertyGroup>
+
+</Project>
