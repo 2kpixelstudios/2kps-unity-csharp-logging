@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>2kPS.UnityCSharpLogging</PackageId>
     <RootNamespace>PS2k.UnityCSharpLogging</RootNamespace>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Authors>Carlos DaLomba</Authors>
