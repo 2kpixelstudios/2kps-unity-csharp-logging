@@ -1,7 +1,7 @@
 ﻿#if CSHARP_LOGGING
 using System;
 
-namespace PS2k.UnityCSharpLogging {
+namespace CometPeak.UnityCSharpLogging {
     /// <summary>
     /// Contains logging functionality that uses the C# <see cref="System.Console">System.Console</see>.
     /// </summary>

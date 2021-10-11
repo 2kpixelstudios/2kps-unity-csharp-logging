@@ -2,13 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <RootNamespace>PS2k.UnityCSharpLogging</RootNamespace>
+    <RootNamespace>CometPeak.UnityCSharpLogging</RootNamespace>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Authors>Carlos DaLomba</Authors>
-    <Company>2kPixel Studios LLC</Company>
+    <Company>Comet Peak Games</Company>
     <Description></Description>
-    <RepositoryUrl>https://github.com/2kpixelstudios/2kps-unity-csharp-logging</RepositoryUrl>
-    <Version>0.1.0</Version>
+    <RepositoryUrl>https://github.com/cometpeakgames/cometpeak-unity-csharp-logging</RepositoryUrl>
+    <Version>0.1.1</Version>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <Configurations>Debug;Release;Debug-UnityLogging;Release-UnityLogging;Debug-CSharpLogging;Release-CSharpLogging</Configurations>
   </PropertyGroup>

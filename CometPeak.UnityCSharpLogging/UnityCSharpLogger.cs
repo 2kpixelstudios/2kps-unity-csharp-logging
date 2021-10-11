@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PS2k.UnityCSharpLogging {
+namespace CometPeak.UnityCSharpLogging {
     /// <summary>
     /// Contains global logging functions to share across a codebase.
     /// </summary>
