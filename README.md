@@ -13,7 +13,7 @@ To use CometPeak Unity C# Logging in your project, we recommend the following:
       ```xml
       <ItemGroup>
         <Reference Include="CometPeak.UnityCSharpLogging">
-          <HintPath>..\Libraries\CometPeak.UnityCSharpLogging (CSharp) v0.1.1\netstandard2.0\CometPeak.UnityCSharpLogging.dll</HintPath>
+          <HintPath>..\Libraries\CometPeak.UnityCSharpLogging.CSharp-Release v0.1.1\netstandard2.0\CometPeak.UnityCSharpLogging.dll</HintPath>
         </Reference>
       </ItemGroup>
       ```
