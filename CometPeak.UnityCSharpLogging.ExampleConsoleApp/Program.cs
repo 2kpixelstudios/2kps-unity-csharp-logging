@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PS2k.UnityCSharpLogging.ExampleConsoleApp {
+namespace CometPeak.UnityCSharpLogging.ExampleConsoleApp {
     public class Program {
         public static void Main(string[] args) {
             UnityCSharpLogger.Log("This is information!");

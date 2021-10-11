@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PS2k.UnityCSharpLogging {
+namespace CometPeak.UnityCSharpLogging {
     /// <summary>
     /// Represents a combination of one or more loggers.
     /// </summary>

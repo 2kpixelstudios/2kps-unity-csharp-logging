@@ -2,7 +2,7 @@
 using System;
 using UnityEngine;
 
-namespace PS2k.UnityCSharpLogging {
+namespace CometPeak.UnityCSharpLogging {
     /// <summary>
     /// Contains logging functionality that uses <see cref="UnityEngine"/>'s <see cref="Debug.Log(object)">Debug.LogXXX(...)</see> methods.
     /// </summary>

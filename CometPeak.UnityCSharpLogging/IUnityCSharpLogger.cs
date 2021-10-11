@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PS2k.UnityCSharpLogging {
+namespace CometPeak.UnityCSharpLogging {
     /// <summary>
     /// Represents a logging system that can work either in Unity or C# .NET environments.
     /// </summary>
